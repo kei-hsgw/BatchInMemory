@@ -7,3 +7,13 @@ spring:
     url: jdbc:postgresql://localhost:5432/batch2
     username: postgres
     password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+      
+# SQLログ出力
+logging:
+  level:
+    '[org.hibernate.SQL]': debug
+    '[org.hibernate.type.descriptor.sql.BasicBinder]': true
+    '[org.hibernate.type.EnumType]': true
