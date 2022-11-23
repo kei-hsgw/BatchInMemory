@@ -15,5 +15,5 @@ spring:
 logging:
   level:
     '[org.hibernate.SQL]': debug
-    '[org.hibernate.type.descriptor.sql.BasicBinder]': true
-    '[org.hibernate.type.EnumType]': true
+    '[org.hibernate.type.descriptor.sql.BasicBinder]': trace
+    '[org.hibernate.type.EnumType]': trace
